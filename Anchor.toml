@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+gifportal = "H5ASZz93WrRXx4gKJKfH1AzzMMNEyPTrNb4gdmVSCz3U"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/bluemercutio/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gifportal.js"
